@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Meu primeiro app web com NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dededsg/node.js.git"
+  },
+  "author": "Develin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dededsg/node.js/issues"
+  },
+  "homepage": "https://github.com/dededsg/node.js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
