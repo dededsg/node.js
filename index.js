@@ -1,6 +1,8 @@
 var http = require('http');
+var dt = require('./modulo1');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Ola mundo!');
+  res.write("The date and time are currently: " + dt.myDateTime());
+  res.end();
 }).listen(8080);
