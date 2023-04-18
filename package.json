@@ -18,5 +18,8 @@
   "homepage": "https://github.com/dededsg/node.js#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "formidable": "^2.1.1"
   }
 }
