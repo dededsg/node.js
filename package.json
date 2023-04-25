@@ -20,6 +20,8 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "formidable": "^2.1.1"
+    "formidable": "^2.1.1",
+    "nodemailer": "^6.9.1",
+    "upper-case": "^2.0.2"
   }
 }
